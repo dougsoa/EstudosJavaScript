@@ -47,6 +47,8 @@ function dizernome() {
   console.log('Douglas')
 }
 
+//TIPAGEM DINÂMICA
+
 dizernome()
 // Faz um cálculo ou operação e retorna algo
 function MultiplicarPorDois(valor) {
