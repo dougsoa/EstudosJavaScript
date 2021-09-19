@@ -48,6 +48,10 @@ function dizernome() {
 }
 
 //TIPAGEM DINÂMICA
+typeof nome
+nome = 5
+typeof nome
+typeof idade
 
 dizernome()
 // Faz um cálculo ou operação e retorna algo
