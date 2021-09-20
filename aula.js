@@ -33,14 +33,13 @@ console.log(valorIngressoAdulto)
 
 // TIPOS PRIMITIVOS
 
-// Tipos primitivos de referência: String / Number / Boolean / undefined / null
+// Tipos primitivos de valores: String / Number / Boolean / undefined / null
 let nome = 'Douglas' //string literal (string quando você junta várias letras e armazena isso em uma variável)
 let idade = 27 //number literal
 let estaAprovado = true //boolean
 let sobrenome = undefined //undefined
 let corSelecionado = null //redefinir um valor
 
-// Tipos primitivos de valores
 
 // Realizar uma tarefa, não devolve nada
 function dizernome() {
@@ -52,6 +51,23 @@ typeof nome
 nome = 5
 typeof nome
 typeof idade
+
+/* Tipos primitivos de referência: OBJETOS / ARRAYS / FUNCTIONS */
+
+// OBJETOS
+// juntar informações em um lugar só que vc pode acessar pela propriedade daquele objeto
+let nome = 'Douglas'
+let idade = 27 
+let estaAprovado = true 
+let sobrenome = undefined
+let corSelecionado = null
+
+let pessoa = {
+   nome = 'Douglas' //nome seria a chave e Douglas seria valor
+};
+
+console.log(pessoa);
+
 
 dizernome()
 // Faz um cálculo ou operação e retorna algo
