@@ -63,7 +63,10 @@ let sobrenome = undefined
 let corSelecionado = null
 
 let pessoa = {
-   nome = 'Douglas' //nome seria a chave e Douglas seria valor
+   nome = 'Douglas', //nome seria a chave e Douglas seria valor
+   idade = 27,
+   estaAprovado = True,
+   sobreNome = "Oliveira
 };
 
 console.log(pessoa);
