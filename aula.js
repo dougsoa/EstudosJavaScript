@@ -69,8 +69,13 @@ let pessoa = {
    sobreNome = "Oliveira
 };
 
+
 console.log(pessoa);
 
+// Arrays
+
+Let familia [36, 45, 50, 'Douglas'];
+console.log(familia[3]);
 
 dizernome()
 // Faz um cálculo ou operação e retorna algo
