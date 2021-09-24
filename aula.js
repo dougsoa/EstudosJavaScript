@@ -74,7 +74,8 @@ console.log(pessoa);
 
 // Arrays
 
-Let familia [36, 45, 50, 'Douglas'];
+Let familia [true, 45, 50, 'Douglas'];
+console.log(familia.length);
 console.log(familia[3]);
 
 dizernome()
