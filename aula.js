@@ -89,3 +89,5 @@ function MultiplicarPorDois(valor) {
 let resultado = MultiplicarPorDois(5)
 
 console.log(resultado)
+
+if else ifelse 
