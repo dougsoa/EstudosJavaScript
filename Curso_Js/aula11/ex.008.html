@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Você é Estrangeiro?</title>
+  </head>
+  <body>
+    <h1>Você é Estrangeiro?</h1>
+    Você é de qual País:
+    <input type="text" name="estrangeiro" id="estrangeiro" />
+    <input type="button" value="Verificar" onclick="calcular()" />
+    <div id="res"></div>
+    <script>
+      function analisar() {
+        var pais = document.getElementById('estrangeiro')
+        var resultado = document.getElementById('res')
+        res.innerHTML = `<p>Você vivendo em ${pais} você é ${resultado}!</p>`
+        if (resultado == 'Brasil') {
+          res.innerHTML = '<p>Você é Brasileiro!</p>'
+        } else {
+          res.innerHTML = '<p>Você é estrangeiro!</p>'
+        }
+      }
+    </script>
+  </body>
+</html>
