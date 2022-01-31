@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #2b60ae;
+}
+
+div{
+  width: 60%;
+  margin: 0px 160px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+}
